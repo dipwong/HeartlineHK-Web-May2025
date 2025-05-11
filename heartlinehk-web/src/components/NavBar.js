@@ -30,9 +30,6 @@ const NavBar  = (props) =>{
                 <Link to="/chatroom" className="chat-btn"></Link>
             </li>
             <li className="nav-item">
-                <a className="phone-btn" href="tel:+85230016615"><FontAwesomeIcon icon={faPhone}/> 30016615</a>
-            </li> 
-            <li className="nav-item">
                 <Link to="/donation" className="donation-btn"><FontAwesomeIcon icon={faGift}/> 捐款</Link>
             </li>
         </ul>
