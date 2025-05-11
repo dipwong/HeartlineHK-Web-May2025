@@ -124,7 +124,7 @@ const Home = () =>{
                     </Link>
                     <Link to="/chatroom" className="link">
                         <img src={chatroom} alt={chatroom} className="link-image" />
-                        <p className="link-text">聯天室</p>
+                        <p className="link-text">聊天室</p>
                     </Link>
                     <Link to="/support-us" className="link">
                         <img src={supportus} alt={supportus} className="link-image" />
