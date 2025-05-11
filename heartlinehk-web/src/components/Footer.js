@@ -14,11 +14,9 @@ const Footer = () =>{
         <footer className="footer-container">
             <a className="back-top-btn" onClick={scrollToTop}><FontAwesomeIcon icon={faChevronUp}/></a>
             <div className="left-column">
-                <div className="sponsor">
-                    <p>捐助機構︰</p>
-                    <p><a href="https://www.icsd-global.org">International Chamber of Sustainable Development</a></p>
-                    <p>CUHK Psy-connection Award</p>
-                </div>
+              <div className="sponsor">
+                  <p>捐助機構：</p>
+                    </div>
                 <a href="#" className="terms-and-conditions">條款和條件</a>
                 <p className="copyright">&copy; 2021 Heartline HK</p>
             </div>
