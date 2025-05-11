@@ -42,7 +42,7 @@ const FAQ = () =>{
                     <p className="answer-text">是的，現階段線上信息和熱線支援服務均需要網絡才可以使用。</p>
                 </li>
                 <li className="question" style={{backgroundColor: "#eaf1f1"}} onClick={openQuestionBox}>
-                    <p className="question-text">接聽電話和回覆信息的義工是誰？他們有受過專業訓練嗎？</p>
+                    <p className="question-text">回覆信息的義工是誰？他們有受過專業訓練嗎？</p>
                     <p className="answer-text">義工為大學生，所有義工需在開始服務前接受培訓，培訓的教材均由現正執業的臨床心理學家、輔導員或精神科醫生審閱。</p>
                 </li>
 
