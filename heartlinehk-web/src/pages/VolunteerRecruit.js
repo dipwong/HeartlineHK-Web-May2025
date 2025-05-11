@@ -75,8 +75,8 @@ const VolunteerRecruit = () =>{
                     <li>沒有性罪行定罪記錄</li>
                     <li>能夠放下個人意見和立場去聆聽</li>
                     <li>對心理健康抱有熱忱，有<span>同理心</span></li>
-                    <li>每月至少當值2-3輪</li>
-                    <li>承諾至少持續服務六個月即可</li>
+                    <li>每月至少當值4更，每更約3至4小時</li>
+                    <li>承諾至少持續服務六個月</li>
                 </ul>
             </div>
             <div className="benefits-container">
@@ -119,18 +119,12 @@ const VolunteerRecruit = () =>{
                     <li>
                         關於服務細節<br />
                         <ol type="a">
-                            <li>
-                                <p className="question">我每星期也要當值嗎？<button onClick={expandAnswer}><FontAwesomeIcon icon={faChevronDown}/></button></p>
-                                <p className="answer">不會的。每名義工每月至少當值2輪，普遍當值2-3輪。當值時間和日期會事先和義工商議。義工可以按照自己的時間表在登記時通知本會，我們會儘量作出最佳的安排。</p>
-                            </li>
+            
                             <li>
                                 <p className="question">我需要整晚當值嗎？<button onClick={expandAnswer}><FontAwesomeIcon icon={faChevronDown}/></button></p>
-                                <p className="answer">我們的服務時間為每晚7pm至翌日7am，分開兩輪當值時間，分別為 (i)7pm至11pm 以及 (ii)11pm至翌日7am。</p>
+                                <p className="answer">我們的服務時間為每晚7pm至翌日7am，分開三輪當值時間，分別為 (i)7pm至11pm 、 (ii)11pm至翌日2am 、 (iii)翌日2am至5am。</p>
                             </li>
-                            <li>
-                                <p className="question">我可以取消登記嗎？<button onClick={expandAnswer}><FontAwesomeIcon icon={faChevronDown}/></button></p>
-                                <p className="answer">一般而言，我們期望已登記的義工完成培訓後，參與至少6個月的服務。如個別義工有特殊原因而要中止義工服務，可以跟我們聯絡。</p>
-                            </li>
+                
                         </ol>
                     </li>
                 </ol>
